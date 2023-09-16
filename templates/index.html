@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Sentiment Analysis</h1>
+    <form method="POST" action="/">
+        <label for="link">Enter a link:</label>
+        <input type="text" name="link" id="link" required>
+        <button type="submit" name="action" value="fast">Fast</button>
+        <button type="submit" name="action" value="slow">Slow</button>
+    </form>
+    <br>
+    {% if result %}
+        <p>Overall sentiment: {{ result.overall_sentiment }}</p>
+        <img src="data:image/png;base64,{{ result.plot_base64 }}" alt="Sentiment Plot">
+    {% endif %}
+</body>
+</html>

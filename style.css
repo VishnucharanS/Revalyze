@@ -1,0 +1,35 @@
+/* style.css */
+
+/* Body background color */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Title styling */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Button styling */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Input field styling */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Info message styling */
+.info-message {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}

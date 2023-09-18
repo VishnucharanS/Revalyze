@@ -1,4 +1,4 @@
-﻿absl-py==1.4.0
+absl-py==1.4.0
 altair==5.0.1
 anyio==3.6.2
 argon2-cffi==21.3.0
@@ -131,6 +131,8 @@ python-dateutil==2.8.2
 python-json-logger==2.0.7
 pytz==2022.7.1
 pytz-deprecation-shim==0.1.0.post0
+pywin32==305
+pywinpty==2.0.10
 PyYAML==6.0
 pyzmq==25.0.2
 qtconsole==5.4.1

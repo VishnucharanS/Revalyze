@@ -196,5 +196,4 @@ widgetsnbextension==4.0.6
 wordcloud==1.9.2
 wrapt==1.15.0
 wsproto==1.2.0
-xarray==2023.7.0
 zipp==3.16.2
